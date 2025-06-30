@@ -89,7 +89,7 @@ struct StrRange {
 
 impl StrRange {
     fn is_valid(&self) -> bool {
-        self.start < self.end
+        self.start <= self.end
     }
 }
 
